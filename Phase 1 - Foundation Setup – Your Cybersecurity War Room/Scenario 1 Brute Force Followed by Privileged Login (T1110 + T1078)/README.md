@@ -4,7 +4,7 @@
 
 ### 🔐 **Objective**
 
-Simulate a brute-force attack against Remote Desktop Protocol (RDP) and detect in through SIEM tool
+Simulate a brute-force attack against the Remote Desktop Protocol (RDP) and detect it using a SIEM tool.
 ---
 
 ### 🧰 **Lab Components**
