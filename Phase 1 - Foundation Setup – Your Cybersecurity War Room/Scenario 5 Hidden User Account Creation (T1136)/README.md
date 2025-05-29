@@ -60,21 +60,9 @@ net localgroup administrators support1 /add
 1. Go to **Search & Reporting**
 2. Run the following searches:
 
-#### 🔎 User Account Created (Event ID 4720)
+![ScreenShot 010 - Search - Splunk 9 4 2 - 192 168 246 133](https://github.com/user-attachments/assets/46e7f54a-89c7-47be-b111-26089e78896b)
+![ScreenShot 011 - Search - Splunk 9 4 2 - 192 168 246 133](https://github.com/user-attachments/assets/42f775d5-a200-4157-b4f1-98c6d890b785)
 
-```spl
-index=* EventCode=4720
-| table _time, Account_Name, SubjectUserName, Message
-| sort -_time
-```
-
-#### 🔎 Privilege Escalation (Event ID 4732)
-
-```spl
-index=* EventCode=4732
-| table _time, GroupName, SubjectUserName, MemberName, Message
-| sort -_time
-```
 
 📌 You should see:
 
