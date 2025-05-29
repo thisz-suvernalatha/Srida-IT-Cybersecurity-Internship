@@ -45,6 +45,8 @@ Still on Windows 10
 
 Time: Should show it occurred after hours (e.g., 7:32 PM)
 
+![Screenshot 2025-05-28 161806](https://github.com/user-attachments/assets/f2f09657-c610-442e-aa29-f0e84c9a2fe7)
+
 ---
 
 ### **Step 3: Create Correlation Search for After-Hours Logons**
@@ -60,6 +62,8 @@ index=main EventCode=4624 Account_Name="suvernalathart@gmai1.com"
 | where hour < 9 OR hour > 19
 | table _time, Account_Name, Logon_Type, Source_Network_Address, host, hour
 ```
+![Screenshot 2025-05-28 160936](https://github.com/user-attachments/assets/3f9b65e2-b47c-4568-a325-2a027451c18e)
+![Screenshot 2025-05-28 161053](https://github.com/user-attachments/assets/bdd80c8a-9d85-4232-9272-ff87a657047a)
 
 
 4. Name the search: After-Hours RDP Logon
