@@ -88,12 +88,3 @@ index=* EventCode=4732
 * Verified the events in **Event Viewer**
 * Verified ingestion and visibility in **Splunk**
 
-
-
-Would you like me to:
-
-* Format this into a shareable document or PDF?
-* Add screenshots for each step?
-* Help you start the next use case?
-
-Let me know!
