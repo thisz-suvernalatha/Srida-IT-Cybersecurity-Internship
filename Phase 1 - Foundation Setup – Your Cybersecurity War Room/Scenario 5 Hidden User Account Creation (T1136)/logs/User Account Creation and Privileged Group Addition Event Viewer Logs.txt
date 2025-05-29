@@ -1,0 +1,77 @@
+Keywords	Date and Time	Source	Event ID	Task Category
+Audit Success	29-05-2025 22:00:54	Microsoft-Windows-Security-Auditing	4732	Security Group Management	"A member was added to a security-enabled local group.
+
+Subject:
+	Security ID:		DESKTOP-F049LOK\suver
+	Account Name:		suver
+	Account Domain:		DESKTOP-F049LOK
+	Logon ID:		0x81908
+
+Member:
+	Security ID:		DESKTOP-F049LOK\support1
+	Account Name:		-
+
+Group:
+	Security ID:		BUILTIN\Administrators
+	Group Name:		Administrators
+	Group Domain:		Builtin
+
+Additional Information:
+	Privileges:		-"
+Audit Success	29-05-2025 22:00:27	Microsoft-Windows-Security-Auditing	4732	Security Group Management	"A member was added to a security-enabled local group.
+
+Subject:
+	Security ID:		DESKTOP-F049LOK\suver
+	Account Name:		suver
+	Account Domain:		DESKTOP-F049LOK
+	Logon ID:		0x81908
+
+Member:
+	Security ID:		DESKTOP-F049LOK\support1
+	Account Name:		-
+
+Group:
+	Security ID:		BUILTIN\Users
+	Group Name:		Users
+	Group Domain:		Builtin
+
+Additional Information:
+	Privileges:		-"
+Audit Success	29-05-2025 22:00:27	Microsoft-Windows-Security-Auditing	4720	User Account Management	"A user account was created.
+
+Subject:
+	Security ID:		DESKTOP-F049LOK\suver
+	Account Name:		suver
+	Account Domain:		DESKTOP-F049LOK
+	Logon ID:		0x81908
+
+New Account:
+	Security ID:		DESKTOP-F049LOK\support1
+	Account Name:		support1
+	Account Domain:		DESKTOP-F049LOK
+
+Attributes:
+	SAM Account Name:	support1
+	Display Name:		<value not set>
+	User Principal Name:	-
+	Home Directory:		<value not set>
+	Home Drive:		<value not set>
+	Script Path:		<value not set>
+	Profile Path:		<value not set>
+	User Workstations:	<value not set>
+	Password Last Set:	<never>
+	Account Expires:		<never>
+	Primary Group ID:	513
+	Allowed To Delegate To:	-
+	Old UAC Value:		0x0
+	New UAC Value:		0x15
+	User Account Control:	
+		Account Disabled
+		'Password Not Required' - Enabled
+		'Normal Account' - Enabled
+	User Parameters:	<value not set>
+	SID History:		-
+	Logon Hours:		All
+
+Additional Information:
+	Privileges		-"
