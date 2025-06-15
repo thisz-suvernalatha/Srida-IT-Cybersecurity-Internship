@@ -1,8 +1,4 @@
 # Detecting Command & Control (C2) Beaconing 
-## Overview
-
-This guide walks you step-by-step through simulating and detecting Command & Control (C2) beaconing behavior in a lab setup.
----
 
 ## 1. Lab Setup
 
